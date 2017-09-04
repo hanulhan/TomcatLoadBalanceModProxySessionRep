@@ -1,0 +1,131 @@
+Sep 04, 2017 3:00:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.68 (Ubuntu)
+Sep 04, 2017 3:00:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jun 27 2016 18:13:17 UTC
+Sep 04, 2017 3:00:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.68.0
+Sep 04, 2017 3:00:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Sep 04, 2017 3:00:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.4.0-89-generic
+Sep 04, 2017 3:00:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Sep 04, 2017 3:00:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+Sep 04, 2017 3:00:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_131-8u131-b11-2ubuntu1.16.04.3-b11
+Sep 04, 2017 3:00:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Sep 04, 2017 3:00:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /var/lib/tomcat7
+Sep 04, 2017 3:00:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /usr/share/tomcat7
+Sep 04, 2017 3:00:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/var/lib/tomcat7/conf/logging.properties
+Sep 04, 2017 3:00:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Sep 04, 2017 3:00:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.awt.headless=true
+Sep 04, 2017 3:00:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx128m
+Sep 04, 2017 3:00:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:+UseConcMarkSweepGC
+Sep 04, 2017 3:00:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/usr/share/tomcat7/endorsed
+Sep 04, 2017 3:00:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/var/lib/tomcat7
+Sep 04, 2017 3:00:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/usr/share/tomcat7
+Sep 04, 2017 3:00:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/tmp/tomcat7-tomcat7-tmp
+Sep 04, 2017 3:00:42 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Sep 04, 2017 3:00:42 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Sep 04, 2017 3:00:42 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2202 ms
+Sep 04, 2017 3:00:42 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 04, 2017 3:00:42 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.68 (Ubuntu)
+Sep 04, 2017 3:00:42 PM org.apache.catalina.ha.tcp.SimpleTcpCluster startInternal
+INFO: Cluster is about to start
+Sep 04, 2017 3:00:42 PM org.apache.catalina.tribes.transport.ReceiverBase bind
+INFO: Receiver Server Socket bound to:/192.168.20.15:4000
+Sep 04, 2017 3:00:42 PM org.apache.catalina.tribes.membership.McastServiceImpl setupSocket
+INFO: Setting cluster mcast soTimeout to 500
+Sep 04, 2017 3:00:42 PM org.apache.catalina.tribes.membership.McastServiceImpl waitForMembers
+INFO: Sleeping for 1000 milliseconds to establish cluster membership, start level:4
+Sep 04, 2017 3:00:42 PM org.apache.catalina.ha.tcp.SimpleTcpCluster memberAdded
+INFO: Replication member added:org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 20, 14}:4000,{192, 168, 20, 14},4000, alive=21651, securePort=-1, UDP Port=-1, id={-14 88 0 36 -111 19 70 -82 -77 -6 -64 125 34 105 19 -33 }, payload={}, command={}, domain={}, ]
+Sep 04, 2017 3:00:43 PM org.apache.catalina.tribes.membership.McastServiceImpl waitForMembers
+INFO: Done sleeping, membership established, start level:4
+Sep 04, 2017 3:00:43 PM org.apache.catalina.tribes.membership.McastServiceImpl waitForMembers
+INFO: Sleeping for 1000 milliseconds to establish cluster membership, start level:8
+Sep 04, 2017 3:00:43 PM org.apache.catalina.tribes.io.BufferPool getBufferPool
+INFO: Created a buffer pool with max size:104857600 bytes of type:org.apache.catalina.tribes.io.BufferPool15Impl
+Sep 04, 2017 3:00:44 PM org.apache.catalina.tribes.membership.McastServiceImpl waitForMembers
+INFO: Done sleeping, membership established, start level:8
+Sep 04, 2017 3:00:44 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /var/lib/tomcat7/webapps/test-app.war
+Sep 04, 2017 3:00:46 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Sep 04, 2017 3:00:46 PM org.apache.catalina.ha.session.DeltaManager startInternal
+INFO: Register manager localhost#/test-app to cluster element Engine with name Catalina
+Sep 04, 2017 3:00:46 PM org.apache.catalina.ha.session.DeltaManager startInternal
+INFO: Starting clustering manager at localhost#/test-app
+Sep 04, 2017 3:00:46 PM org.apache.catalina.ha.session.DeltaManager getAllClusterSessions
+INFO: Manager [localhost#/test-app], requesting session state from org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 20, 14}:4000,{192, 168, 20, 14},4000, alive=25171, securePort=-1, UDP Port=-1, id={-14 88 0 36 -111 19 70 -82 -77 -6 -64 125 34 105 19 -33 }, payload={}, command={}, domain={}, ]. This operation will timeout if no session state has been received within 60 seconds.
+Sep 04, 2017 3:00:46 PM org.apache.catalina.tribes.group.interceptors.ThroughputInterceptor report
+INFO: ThroughputInterceptor Report[
+	Tx Msg:1 messages
+	Sent:0.00 MB (total)
+	Sent:0.00 MB (application)
+	Time:0.02 seconds
+	Tx Speed:0.03 MB/sec (total)
+	TxSpeed:0.03 MB/sec (application)
+	Error Msg:0
+	Rx Msg:1 messages
+	Rx Speed:0.00 MB/sec (since 1st msg)
+	Received:0.00 MB]
+
+Sep 04, 2017 3:00:46 PM org.apache.catalina.ha.session.DeltaManager waitForSendAllSessions
+INFO: Manager [localhost#/test-app]; session state send at 9/4/17 3:00 PM received in 248 ms.
+Sep 04, 2017 3:00:46 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /var/lib/tomcat7/webapps/test-app.war has finished in 2,343 ms
+Sep 04, 2017 3:00:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/lib/tomcat7/webapps/ROOT
+Sep 04, 2017 3:00:46 PM org.apache.catalina.core.StandardContext setPath
+WARNING: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+Sep 04, 2017 3:00:47 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Sep 04, 2017 3:00:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/lib/tomcat7/webapps/ROOT has finished in 893 ms
+Sep 04, 2017 3:00:47 PM org.apache.catalina.ha.session.JvmRouteBinderValve startInternal
+INFO: JvmRouteBinderValve started
+Sep 04, 2017 3:00:47 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-80"]
+Sep 04, 2017 3:00:47 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Sep 04, 2017 3:00:47 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 5730 ms
+Sep 04, 2017 3:01:21 PM org.apache.catalina.ha.tcp.SimpleTcpCluster memberDisappeared
+INFO: Received member disappeared:org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 20, 14}:4000,{192, 168, 20, 14},4000, alive=60335, securePort=-1, UDP Port=-1, id={-14 88 0 36 -111 19 70 -82 -77 -6 -64 125 34 105 19 -33 }, payload={}, command={66 65 66 89 45 65 76 69 88 ...(9)}, domain={}, ]
+Sep 04, 2017 3:03:15 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-80"]
+Sep 04, 2017 3:03:15 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Sep 04, 2017 3:03:15 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 04, 2017 3:03:15 PM org.apache.catalina.ha.session.JvmRouteBinderValve stopInternal
+INFO: JvmRouteBinderValve stopped
+Sep 04, 2017 3:03:15 PM org.apache.catalina.ha.session.DeltaManager stopInternal
+INFO: Manager [localhost#/test-app] expiring sessions upon shutdown
+Sep 04, 2017 3:03:16 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-80"]
+Sep 04, 2017 3:03:16 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Sep 04, 2017 3:03:16 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-80"]
+Sep 04, 2017 3:03:16 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
