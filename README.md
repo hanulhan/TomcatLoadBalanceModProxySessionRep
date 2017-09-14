@@ -41,4 +41,7 @@ LoadBalancer (apache2 ) is 192.168.20.20
 	
 We see same session id from Instance 2
 
+Balancer Manager erreichbar unter:
+http://192.168.20.20/balancer-manager
+
 
